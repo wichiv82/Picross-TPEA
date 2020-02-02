@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_game"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <com.example.picross.GameView
+        android:id="@+id/myCustomView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.picross.GameView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok_img"
+        android:src="@drawable/ok_check"
+        android:paddingLeft="20px"
+        android:paddingTop="300px"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Sauvegarder"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_width="300px"
+        android:layout_height="100px" />
+
+    <Button
+        android:id="@+id/loadButton"
+        android:text="Charger"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80px"
+        android:layout_width="300px"
+        android:layout_height="100px" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:text="Quitter"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="160px"
+        android:layout_width="300px"
+        android:layout_height="100px" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1">
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="fill_parent"
+                android:layout_height="280px"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/blanc"
+                android:background="@color/rouge_clair"
+                android:text="Commencer une partie" />
+
+            <Button
+                android:id="@+id/buttonDownload"
+                android:layout_width="fill_parent"
+                android:layout_height="280px"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/blanc"
+                android:background="@color/vert"
+                android:text="Télécharger des niveaux" />
+
+            <Button
+                android:id="@+id/buttonQuit"
+                android:layout_width="fill_parent"
+                android:layout_height="280px"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/blanc"
+                android:background="@color/bleu"
+                android:text="Quitter" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1">
+    </RelativeLayout>
+
+
+
+</LinearLayout>
