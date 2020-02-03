@@ -25,7 +25,7 @@
     <Button
         android:id="@+id/saveButton"
         android:text="Sauvegarder"
-        android:textSize="10sp"
+        android:textSize="6sp"
         android:textStyle="bold"
         android:layout_width="300px"
         android:layout_height="100px" />
@@ -33,7 +33,7 @@
     <Button
         android:id="@+id/loadButton"
         android:text="Charger"
-        android:textSize="10sp"
+        android:textSize="6sp"
         android:textStyle="bold"
         android:layout_marginTop="80px"
         android:layout_width="300px"
@@ -42,7 +42,7 @@
     <Button
         android:id="@+id/quitButton"
         android:text="Quitter"
-        android:textSize="10sp"
+        android:textSize="6sp"
         android:textStyle="bold"
         android:layout_marginTop="160px"
         android:layout_width="300px"

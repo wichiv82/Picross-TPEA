@@ -92,7 +92,7 @@ class Game {
 
             while ((line = br.readLine()) != null) {
 
-                String[] cases = line.split("");
+                String[] cases = line.split("(?!^)");
 
                 int colonne = 0;
                 for(String c : cases){
